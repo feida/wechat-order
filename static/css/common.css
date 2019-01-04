@@ -1,0 +1,276 @@
+html,body {
+  position: relative;
+  height: 100%;
+  font-size: 14px;
+  overflow-y: hidden;
+  font-family: "微软雅黑";
+}
+.full-height {
+  position: relative;
+  height: 100%;
+}
+i {
+  font-style: normal;
+}
+ul,li {
+  list-style: none;
+}
+img {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+.icon.plus {
+  font-size: 26px;
+}
+.icon.minus {
+  font-size: 22px;
+}
+@media screen and (max-width: 410px) and (min-width: 370px){
+  html,body {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 410px){
+  html,body {
+    font-size: 16px;
+  }
+}
+.weui-cell:before {
+  left: 0px;
+}
+.price:before {
+  content: "¥";
+}
+
+.weui_dialog_confirm {
+  text-align: center;
+}
+.weui_dialog {
+  position: fixed;
+  z-index: 1000;
+  width: 80%;
+  height: 120vw;
+  top: 5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+}
+.weui_dialog_full {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+}
+.font-mini {
+  color: #999;
+  font-size: 0.9em;
+}
+.margin-0{
+  margin:0;
+}
+.padding-0{
+  padding:0;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.font-bold{
+  font-weight: bold;
+}
+.delete {
+  color: #6E6E6E;
+  text-decoration: line-through;
+}
+.sale {
+  color: #C81623;
+}
+/*购物车*/
+.groupCartList {
+  text-align: center;
+  font-size: 1.1rem;
+  position: relative;
+  overflow: hidden;
+}
+.groupCartItem:last-child {
+  border-bottom: none;
+}
+.groupCartItem {
+  padding: 8px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #000;
+  border-bottom: 1px solid #e7e7e7;
+}
+.price-style {
+  /* position: absolute; */
+  /* left: 53%; */
+  color: #c41e24;
+}
+.weui_flex_cart {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.weui_flex_cart.hidden {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.group-item {
+  position: relative;
+}
+.group-item .numberControl {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+/*底部按钮*/
+.bottom-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* border-top: 1px solid #d0d0d0; */
+}
+.weui-dialog__ft a.white {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border: 1px solid #868686;
+}
+.weui-dialog__ft a.primary {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.weui-dialog__ft {
+  line-height: 35px;
+  font-size: 17px;
+}
+.weui-dialog__ft a {
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.loadingImg {
+  width:1.1rem;
+  height: 1.1rem;
+  vertical-align: middle;
+}
+.full-screen {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+/*响应式样式 */
+@media screen and (max-width:359px){
+	.weui_dialog.dish_details {height:120vw;}
+	.weui_dialog.dish_details .items-name {font-size:13px;}
+	.weui_dialog.dish_details .items-name-change {font-size:13px;}
+	.weui_choice_taste span {font-size:13px;}
+	.meal-attr-items span {font-size:13px;}
+	/*.flex-item {margin: 0px 3px;}*/
+	.mui-btn {font-size:18px;}
+	.specificComment {width: 87%;}
+    .cart-item-name {width: 150px;}
+    .codeContent {position: relative;top: 6%;font-size:1.5rem;font-family:微软雅黑;}
+    .codeImg {width: 14rem;height: 14rem;}
+    .shareFriend {margin-top: 1.6rem;display:block;}
+    .receiveRedbag {position:relative;bottom:0.4rem;}
+    .myCodeSrc {width: 8rem;height: 8rem;}
+	.scanCode {font-size: 0.9rem;}
+    .myCodeImg {width:13.5rem;height:13.5rem;}
+    .codePadding {padding: 1.2rem;}
+    #contentInput {padding: 0px 2px;}
+    .posCode {position: relative;bottom: 95px;}
+    .redBagCash {top: 3rem;}
+    .birthSurprise {font-size: 12px;top: 5rem;}
+    #scroll-couponList {height: 78px;}
+    .birthGift {top: 7rem;}
+    .receiveSuccess {font-size: 16px;}
+    /* .appraise-content .appraise-name {width: 31.5%;padding: 0px 5px;margin: 0.8%;} */
+    .appraise-content .appraise-name {padding: 0px 5px;margin: 0.8%;}
+    .weui_dialog .weui_dialog_ft .order {font-size: 14px;}
+    .scoreCircle {width: 190px;}
+    .appraise-items {max-height: 65px;}
+	#scroll-coupon {max-height: 70vw;}
+	.keysComment .manyImg {width: 21vw;height: 20vw;}
+	 .keysComment .commentImg {width: 72vw;height: 36vw;}
+}
+@media screen and (min-width:359px){
+	.icon.plus {font-size: 28px;}
+	.describe-sale {top: 44%;}
+	.weui_dialog.dish_details {height:120vw;}
+	.weui_dialog.dish_details .items-name {font-size:14px;}
+	.weui_dialog.dish_details .items-name-change {font-size:14px;}
+	.weui_choice_taste span {font-size:14px;}
+	.meal-attr-items span {font-size:14px;}
+	.mui-btn {font-size:20px;}
+	.specificComment {width: 90%;}
+	.cart-item-name {width: 180px;}
+	.charge-rules .charge-btn {padding: 0px 6px;}
+	.weui_btn + .weui_btn {margin-left: 10px;}
+	.codeContent {position: relative;top: 6%;font-size:1.8rem;font-family:微软雅黑;}
+    .shareFriend {margin-top: 2rem;display:block;}
+    .receiveRedbag {position:relative;bottom:0.4rem;}
+    .scanCode {font-size: 1rem;}
+    .scanCodeMar {margin-top: 10px;}
+    .posCode {position: relative;bottom: 80px;}
+    .myCodeSrc {width: 10rem;height: 10rem;}
+    .myCodeImg {width:16rem;height:16rem;}
+    .codePadding {padding: 1.4rem;}
+    .weui_media_box .weui_media_desc {font-size: 15px;}
+    .weui_dialog.middle-dialog {height: 48%;}
+    .redBagCash {bottom: -4.5rem;}
+    .birthSurprise {font-size: 13px;top: 8rem;}
+    #scroll-couponList {height: 110px;}
+    .birthGift {top: 10rem;}
+    .receiveSuccess {font-size: 20px;}
+    .scoreCircle {width: 220px;}
+    .appraise-content.scroll {max-height: 62px;}
+    .weui_dialog .weui_dialog_ft .order {font-size: 15px;}
+    .weui-btn.weui_mini_btn {
+	    font-size: 16px;
+	    line-height: 40px;
+        padding: 0px 20px;
+	}
+	.shopName {font-size: 18px;}
+	.detailedInfor {font-size: 16px;}
+	.weui_dialog_attention {font-size: 16px;}
+	.scanImg {top:4vh;}
+	.weui_toast_group {font-size: 15px;}
+	.commentSmallImg {
+		width: 21vw;
+		height: 21vw;
+	}
+}
+@media screen and (min-width:400px){
+	.birthSurprise {font-size: 14px;top: 12rem;}
+	.redBagCash {bottom: -7.5rem;}
+	.changeBtn {top: -6vh;}
+	.weui_toast_group {font-size: 16px;}
+}

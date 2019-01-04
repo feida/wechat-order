@@ -1,0 +1,101 @@
+.weui_cell_head {
+  position: relative;
+  margin-right: 15px;
+}
+.customerPhoto {
+  width: 4rem;
+  height: 4rem;
+  display: block;
+  border-radius: 5px;
+}
+.customerSexSmall {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: relative;
+  top:3px;
+}
+.weui_media_bd {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+.weui_media_title {
+  position: relative;
+  top: -3px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.weui_media_tell {
+  position: relative;
+  color: #999;
+  line-height: 2;
+}
+.myCode {
+  position: relative;
+  left: -5px;
+}
+.myCode span {
+  position: absolute;
+  bottom: -18px;
+  left: -6px;
+  width: 4rem;
+  font-size: 12px;
+  color: red;
+}
+.payCode {
+  width: 2.8rem;
+  height: 2.8rem;
+  vertical-align: middle;
+}
+.charge-btn {
+  padding: 0px 6px;
+}
+.bind-btn {
+  border-radius: 13px;
+  line-height: 2;
+  padding: 0 10px;
+}
+.colorFix {
+  background: #DF5548;
+  color: #fff;
+}
+.weui-btn + .weui-btn {
+  margin-top: 0;
+}
+.weui-cell__hd.margin {
+  margin-right: 10px;
+}
+.iconImg {
+  width: 1.4rem;
+  height: 1.4rem;
+  vertical-align: middle;
+}
+.order-mini-detailed>p {
+  line-height: 1.6;
+}
+.order-list-mini .item .order-state {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #000;
+}
+.order-list-mini .item .order-operator {
+  margin-bottom: -30px;
+  padding: 0 4px;
+  line-height: 1.9;
+}
+.weui_btn_main {
+  background-color: #000;
+  font-size: 1rem;
+}
+.order-list-mini .item .font-mini {
+  font-size: 12px;
+}
+/*.weui-cells:before {*/
+  /*height: 0;*/
+  /*border: none;*/
+/*}*/
+

@@ -1,0 +1,61 @@
+.weui_dialog_appraise {
+  position: fixed;
+  z-index: 1000;
+  width: 80%;
+  max-height: 120vw;
+  top: 5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+}
+.weui_cell_comment {
+  border-top: 0.82em solid #E7E7E7;
+  line-height: 1.41176471;
+  position: relative;
+  background: #fff;
+}
+.appraise-count-span {
+  font-size: 0.9rem;
+  color: #1e1e1e;
+}
+.weui_dialog_hd {
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.weui_dialog_title {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.weui_dialog_bd.appraise-count-bd {
+  padding: 0;
+  text-align: center;
+  line-height: 2;
+  position: relative;
+  overflow: hidden;
+}
+.weui-dialog__ft {
+  line-height: 35px;
+  font-size: 16px;
+}
+.weui_dialog_bd {
+  padding: 0 10px;
+  font-size: 15px;
+  color: #888;
+}
+.weui-dialog__ft a {
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.weui-dialog__ft a.primary {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.weui-dialog__ft a.primary+a {
+  margin-left: 0;
+}
+

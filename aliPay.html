@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="x5-orientation"content="portrait">
+  <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+  <link href="static/css/weui.css" rel="stylesheet">
+  <title>支付宝支付</title>
+
+</head>
+<body>
+<!-- 支付宝支付 提示页 -->
+<div id="ali"></div>
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/jswx.js"></script>
+
+<script>
+  document.addEventListener('touchmove', function (e) {
+    e.preventDefault();
+  }, false);
+
+  //隐藏微信按钮
+  <!--$.ajax({-->
+    <!--url: location.origin + "/wechat/jsconfig",-->
+    <!--type: "post",-->
+    <!--data: {"query": getUrlParam(window.location.href) , "qiehuan" : "openAliPay"},-->
+    <!--async: false,-->
+    <!--dataType: "json",-->
+    <!--success: function (result) {-->
+      <!--wx.config(result.data);-->
+    <!--}-->
+  <!--});-->
+
+//  function getUrlParam(url){
+//    if(url.indexOf("#") > -1){
+//      var param = url.substring(url.indexOf("?")+1,url.indexOf("#"));
+//    } else{
+//      var param = url.substring(url.indexOf("?")+1,url.length);
+//    }
+//    return param;
+//  }
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+.weui_dialog_recharge {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+}
+.main-content {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #f0eff5;
+}
+.allCash {
+  text-align: center;
+  color: #e2543c;
+  margin-left: 30px;
+}
+.header {
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 5px;
+}
+.accountBtn {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+.accountBtn .balanceBtn {
+  width: 22%;
+  border: 1px solid #9a9999;
+  border-radius: 3px;
+  padding: 6px 5px;
+  margin: 6px 0;
+  display: inline-block;
+  background-color: #ffffff;
+}
+.weui_charge {
+  padding: 15px 0px;
+  margin:0px 20px;
+  text-align: left;
+}
+#chargeText {
+  border: none;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.balanceBtn.active {
+  background-color: #e2543c;
+  color: #fff;
+  border: none;
+}
+.btn{
+  background-color: #e2543c;
+  color: #fff;
+  width: 84%;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+}
+.btn.active {
+  background-color: #ccc;
+  color: #fff;
+}
+.eatMore {
+  background-color: #e2543c;
+  color: #fff;
+  width: 80%;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 21%;
+}
+.weui_money {
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+  top: 12%;
+  background-color: #fff;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.twoHours {
+  padding-top: 20px;
+  position: relative;
+  top: 15%;
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 370px) {
+  html,body {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html,body {
+    font-size: 16px;
+  }
+}

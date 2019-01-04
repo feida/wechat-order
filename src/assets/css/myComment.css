@@ -1,0 +1,190 @@
+.weui_cell {
+    /*border-bottom: 5px solid #e7e7e7;*/
+}
+
+.weui_cell_hd {
+    position: relative;
+    margin-right: 15px;
+}
+
+.weui_flex_item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+
+.weui_flex_item span {
+    display: block;
+}
+
+.stopIscroll {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flex-tab {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 3.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #979797;
+}
+
+.appraiseNum {
+    float: left;
+    color: #ff8832;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.appraiseText {
+    font-size: 0.9rem;
+    margin-left: 5rem;
+    margin-right: 10px;
+    color: #666;
+}
+
+.appraiseDate {
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    font-size: 0.7rem;
+    color: #999;
+}
+
+.commentHeader {
+    position: relative;
+    padding-left: 5rem;
+    height: 30px;
+    font-size: 1rem;
+    color: #666;
+    /*    border-bottom: 1px solid #eee;*/
+}
+
+.commentHeader img {
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+}
+
+.commentHeader .commentLeft {
+    position: absolute;
+    right: 23%;
+}
+
+.commentHeader .commentRight {
+    position: absolute;
+    right: 2%;
+}
+
+.flex_item_table {
+    padding: 5px 6px;
+    width: 24%;
+    text-align: center;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    margin: 2px 8px 4px 0px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.flex_item_table:nth-child(3n+0) {
+    margin: 2px 0px 4px 0px;
+}
+.commentImg {
+    width: 22vw;
+    height: 22vw;
+    margin: 0vw 3vw 3vw 0vw;
+}
+.commentBigImg {
+    width: 72vw;
+    height: 36vw;
+    margin: 0vw 3vw 3vw 0vw;
+    position: relative;
+}
+.commentBigImg .bgImg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:25px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.commentSmallImg {
+    width: 20vw;
+    height: 20vw;
+    margin: 0vw 3vw 3vw 0vw;
+    position: relative;
+}
+.commentSmallImg .bgImg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:25px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.zanOrCaiImg {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.flex_container_img {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    margin: 0.6rem 0.5rem 0 3.5rem;
+    width: initial;
+    flex-wrap: wrap;
+}
+.weui_dialog_record {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+}
+.emptyComment {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #ccc;
+    font-size: 1.1rem;
+}
+.emptyComment img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.weui_cell_head {
+    position: relative;
+    margin-right: 15px;
+}
+.customerPhoto {
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    border-radius: 5px;
+}
+.customerSexSmall {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+    top:3px;
+}
